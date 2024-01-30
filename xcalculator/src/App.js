@@ -44,7 +44,7 @@ function App() {
           <button className="button" onClick={() => handleButtonClick('1')}>1</button>
           <button className="button" onClick={() => handleButtonClick('2')}>2</button>
           <button className="button" onClick={() => handleButtonClick('3')}>3</button>
-          <button className="button" onClick={() => handleButtonClick('')}></button>
+          <button className="button" onClick={() => handleButtonClick('*')}>*</button>
         </div>
         <div>
           <button className="button" onClick={handleClear}>C</button>
